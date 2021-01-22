@@ -1,5 +1,5 @@
 var dataset = ee.ImageCollection('CSP/HM/GlobalHumanModification');
-var pa = ee.FeatureCollection("users/lucabattistellageo/WDPA_05_ACP_202009"); //serie di poligoni anche diversi tra loro
+var pa = ee.FeatureCollection("users/lucabattistellageo/WDPA_05_ACP_202009"); 
 var pa_m = pa.filterMetadata('marine', 'equals', 0);
 var gHM_mean = ee.Image(dataset.reduce(ee.Reducer.mean())).clip(pa_m);   
  
