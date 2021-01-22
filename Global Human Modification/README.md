@@ -1,3 +1,9 @@
-# Global Forest Change
-Results from time-series analysis of Landsat images characterizing forest extent and change.  Trees are defined as vegetation taller than 5m in height and are expressed as a percentage per output grid cell as ‘2000 Percent Tree Cover’. ‘Forest Cover Loss’ is defined as a stand-replacement disturbance, or a change from a forest to non-forest state, during the period 2000–2016. ‘Forest Cover Gain’ is defined as the inverse of loss, or a non-forest to forest change entirely within the period 2000–2012. ‘Forest Loss Year’ is a disaggregation of total ‘Forest Loss’ to annual time scales.  Reference 2000 and 2016 imagery are median observations from a set of quality assessment-passed growing season observations.
-https://earthenginepartners.appspot.com/science-2013-global-forest
+# Global Human Modification
+The global Human Modification dataset (gHM) provides a cumulative measure of human modification of terrestrial lands globally at 1 square-kilometer resolution. The gHM values range from 0.0-1.0 and are calculated by estimating the proportion of a given location (pixel) that is modified, the estimated intensity of modification associated with a given type of human modification or "stressor". 5 major anthropogenic stressors circa 2016 were mapped using 13 individual datasets:
+
+human settlement (population density, built-up areas)
+agriculture (cropland, livestock)
+transportation (major, minor, and two-track roads; railroads)
+mining and energy production
+electrical infrastructure (power lines, nighttime lights)
+Please see the paper for additional methodological details. This asset was re-projected to WGS84 for use in Earth Engine.
